@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="E:/微信学习/程序/apache-tomcat-7.0.54/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="E:/微信学习/commons-logging-1.2-bin/commons-logging-1.2/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="E:/微信学习/commons-logging-1.2-bin/commons-logging-1.2/commons-logging-1.2-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/微信学习/joda-time-2.1.jar"/>
+	<classpathentry kind="lib" path="E:/微信学习/commons/commons/commons-io-1.4/commons-io-1.4.jar"/>
+	<classpathentry kind="lib" path="E:/微信学习/commons/commons/commons-io-1.4/commons-io-1.4-javadoc.jar"/>
+	<classpathentry kind="lib" path="E:/微信学习/commons/commons/commons-io-1.4/commons-io-1.4-sources.jar"/>
+	<classpathentry kind="lib" path="E:/微信学习/com.thoughtworks.xstream.jar/xstream-1.4.7/lib/xstream-1.4.7.jar"/>
+	<classpathentry kind="lib" path="E:/微信学习/import/fastjson-1.1.31.jar"/>
+	<classpathentry kind="lib" path="E:/微信学习/import/jdom.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

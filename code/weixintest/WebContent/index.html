@@ -1,0 +1,70 @@
+
+<html>
+<head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+	<link rel="stylesheet" href="http://apps.bdimg.com/libs/jquerymobile/1.4.2/jquery.mobile.min.css">
+    <script src="http://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/jquerymobile/1.4.2/jquery.mobile.min.js"></script>
+</head>
+<body>
+    <div data-role="page" id="notes-list-page" data-title="My Notes">
+    
+ <div data-role="header" data-position="fixed">
+            <h1>会员免费注册</h1>
+        </div>
+  <div data-role="content">
+     <form method="post" action="demoform.asp">
+      <div data-role="fieldcontain">
+        <label for="tel">手机：</label>
+        <input type="tel" name="tel" id="tel" placeholder="请输入您的电话号码.." >    
+
+        <label for="bday">生日：</label>
+        <input type="date" name="bday" id="bday">
+
+    <label for="day">糖尿病类型</label>
+
+    <select name="tnb_type" id="tnb_type">
+      <option value="tnb_type1">I型糖尿病</option>
+      <option value="tnb_type2">II型糖尿病</option>
+      <option value="tnb_type3">妊娠期糖尿病</option>
+      <option value="tnb_type4">其他类型</option>
+    </select>
+ <label for="high">身高：</label>
+        <input type="number" name="high" id="high" placeholder="请输入您的身高..">  
+ <label for="weight">体重：</label>
+        <input type="number" name="weight" id="weight" placeholder="请输入您的身高..">  
+ <label for="bsBefor">空腹血糖：</label>
+        <input type="number" name="bsBefor" id="bsBefor">  
+ <label for="bsAfter">餐后血糖：</label>
+        <input type="number" name="bsAfter" id="bsAfter">  
+ 
+   
+     
+<label for="xueya">血压：</label> 
+        <input type="number" name="xueya_high" id="xueya_high">  
+
+<label for="xueya">/：</label> 
+        <input type="number" name="xueya_low" id="xueya_low">  
+ 
+ 
+ 
+    <label for="worklevel">劳动强度</label>
+
+    <select name="worklevel" id="worklevel">
+      <option value="worklevel1">轻体力劳动</option>
+      <option value="workleve2">中等体力劳动</option>
+      <option value="worklevel3">重体力劳动</option>
+    </select>
+
+      </div>
+
+      <input type="submit" value="提交">
+    </form>
+  </div>
+
+    </div>
+</body>
+</html>
+

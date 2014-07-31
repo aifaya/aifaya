@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+encoding//src/org/ivy/course/servlet/CoreServlet.java=UTF-8
+encoding//src/org/ivy/course/wxtools/WeiXinTools.java=UTF-8
+encoding//src/org/ivy/course/wxtools/vo/send/WxSendMsg.java=UTF-8
+encoding//src/org/ivy/course/wxtools/vo/send/WxSendNewsMsg.java=UTF-8
